@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --three: rgb(247,249,249);
+    --ot:#ffffff;
+    --colo:#0f1419;
+    --border: 1px solid #eff3f4;
+}
+.container{
+    display: flex;
+    border: var(--border);
+    width: 100%;
+    height: 100vh
+}
+.ice{
+    width:23% ;
+    height: 100vh;
+    background-color: var(--ot);
+    border-right: var(--border);
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 20px 25px ;
+    position: relative;
+}
+.yusuf{
+    width:45% ;
+    height: 100vh;
+    background-color: var(--ot);
+    border-right: var(--border);
+}
+/* =ice */
+span{
+    padding-right: 20px;
+}
+/* styling of de div icon */
+.prof a{
+    text-decoration: none;
+    color: var(--colo);
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.prof, profs{
+    width: auto;
+    padding: 15px;
+
+}
+.prof:hover{
+    background-color: #c7c8c9;
+    border-radius: 30px;
+}
+/* all de ic sizinf */
+#home{
+    width: 142px;
+}
+#hash{
+    width: 155px;
+}
+#bell{
+    width: 195px;
+}
+#message{
+    width: 184px;
+}
+#book{
+    width: 190px;
+}
+#rectangle, #elipse{
+    width: 127px;
+}
+#prolie{
+    width: 140px;
+}
+.profs{
+    position: relative;
+    left: 11px;
+    margin-bottom: 20px;
+}
+.house{
+    padding-right: 15px;
+}
+.bell{
+    padding-right: 20.5px;
+}
+.message{
+    padding-right: 18.7px;
+}
+.book{
+    padding-right: 23.5px;
+}
+.rectangle{
+    padding-right: 18px;
+}
+.prolie{
+    padding-right: 23.5px;
+}
+.elipse{
+    padding-right: 23px;
+}
+/* tweet butten */
+.btn{
+    width: 90%;
+    padding: 10px 30px;
+    background-color: #1a8cd8;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    position: relative;
+    left: 10px;
+}
+.btn:hover{
+    background-color:#2085c9 ;
+    cursor: pointer;
+}
+.btn a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.las{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    position: absolute;
+    bottom: 4%;
+    left: 11%;
+}
+.cik{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/pexels-ioana-motoc-11175629.jpg);
+    border-radius: 50%;
+}
+.nam{
+    position: relative;
+    right: 16%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h5{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.las-p{
+    font-size: 14px;
+    color: rgb(185, 184, 184);
+}
+/* =baba  */
+.baba{
+    width:32% ;
+    height: 100vh;
+}
+.bbaa{
+    width: 90%;
+    height: 100vh;
+    background-color: #fff;
+    margin: 10px auto 0 auto;
+}
+#search{
+    width: 100%;
+    height: 3em;
+    border-radius: 30px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background-color: var(--three);
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+#search::placeholder{
+    color: #62727e;
+}
+.search{
+    margin-bottom: 20px;
+}
+.trends{
+    padding: 10px 20px;
+    background-color: var(--three);
+    border-radius: 15px;
+    color:#46484b;
+}
+.trens{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: ;
+}
+.trens:hover{
+    cursor: pointer;
+}
+.hid{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+.tren-p{
+    margin: 6px 0;
+}
+.tre h3{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.el{
+    position: relative;
+    bottom: 20px;
+}
+.tren-p{
+    color: #62727e;
+
+}
+.ass{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 15px 0 15px;
+}
+.lin{
+    width: 100%;
+    border-bottom: var(--border);
+    margin: 10px 0 0 0;
+
+}
+.ion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.re{
+    padding: 5px;  
+    color:#37a7f1 ;
+}
+.spax{
+    position: relative;
+    left: 43px;
+}
+#text{
+    height: 3rem;
+    border: none;
+    outline: none;
+    width: 100%;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    resize: auto;
+    cursor: text;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.toll{
+    display: flex;
+    margin: 10px 0;
+}
+.imp{
+    width: 50px;
+    height: 45px;
+    border-radius: 50%;
+    background-image: url(../img/pexels-ioana-motoc-11175629.jpg);
+    margin-right: 10px;
+}
+.ima{
+    width: 25%;
+    height: 45px;
+    background-image: url(../img/pexels-ioana-motoc-11175629.jpg);
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.yusuf-h{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#btn{
+    padding: 7px 20px;
+    border-radius: 25px;
+    color: #fff;
+    background-color: #37a7f1;
+    outline: none;
+    border: none;
+}
+.firs:hover{
+    background-color: var(--three);
+}
+.treet{
+    display: flex;
+    width: 100%;
+    
+}
+.it{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.ib{
+    display: flex;
+}
+.tern{
+    width: 100%;
+    margin-bottom: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .79rem;
+}
+.reg{
+    display: flex;
+    margin-bottom: 5px;
+}
+.ib-p{
+    margin-left: 0px;
+    color: #c0c1c2;
+}
+.treet{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tex-p{
+    color: #b2b4b6;
+    font-size: 14.7px;
+    margin-left:5px ;
+    margin-bottom:3px;
+}
+.fi{
+    padding-right: 10px;
+    color: #62727e;
+}
+.tex{
+    position: relative;
+    top: 15px;
+    margin-bottom: 20px;
+}
+.tern{
+    margin-bottom: 15px;
+}
+#we:hover{
+    color: green;
+}
+#wa:hover{
+    color: red;
+}
+.firss:hover{
+    background-color: var(--three);
+}
